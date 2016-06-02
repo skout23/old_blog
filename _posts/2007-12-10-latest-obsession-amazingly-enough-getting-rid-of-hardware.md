@@ -1,0 +1,9 @@
+---
+layout: post
+title: Latest obsession... amazingly enough getting rid of hardware
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+Thanks to work I have been using Xen for the past year heavily, and have used VMware/Qemu and other virtualization software for years.  Yep, It all started with the need to have a quiet living room... enter Mac Mini (silent, stable for the most part) running vmware fusion.  I went with commercial software simply because it had the best performance at the time, and probably still does when running on the hardware.  Then I started hearing whispers about beta projects running at Amazon.  Amazon Web Services (AWS), EC2 for computing &amp; S3  for storage are what I am currenly focusing on, however I did not think much of them  originally, since I had doubts about the stability of the visualized servers.  Then I started to hear of people raving about AWS, and couple that with my work pushing me towards them as well, resulting in a perfect storm of kismet.  So the next logical step would be .... skoutsec running on (AWS), in which everything is virtual.  No need for any hardware to speak of any more, and considering the cost is less than what I paid for the mac mini, it could be worth it to host everything there, if for no other reason than to have better than 85% uptime.    Have not quite sold the farm on the idea, but considering it seriously.  I have already setup a couple boxes with <a href="http://www.rightscale.com" title="RightScale" target="_blank">RightScale</a> for ease of administration and <a href="http://www.elasticdrive.com/" title="Elastic Drive" target="_blank">Elastic Drive</a> so that I can have constant backups.  I need to come up with some projects in which the AWS will be a good fit, and right now I just don't think a simple shell server would be the right idea, and the real ideas I want to explore are probably left better unsaid in case I want to make any money off them.
